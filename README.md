@@ -47,6 +47,10 @@ The project was implemented in **two main parts**, each addressing a separate co
 8. **Search Indexing:** **Pinecone** is used for vector search, which handles embedding creation automatically, reducing complexity.  
 
 ---
+### Project Architecture
+
+![FlowAutomate Backend Architecture](assets/flow.png)
+
 
 ## ETL Worker Approach & Implementation
 
