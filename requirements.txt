@@ -1,0 +1,31 @@
+# PDF processing
+PyPDF2>=3.0.0
+PyMuPDF>=1.22.5
+camelot-py[cv]>=0.10.1
+pandas>=2.0.3
+
+# OCR / Image processing
+pillow>=10.0.0
+pytesseract>=0.3.11
+opencv-python>=4.8.1.78
+
+# AWS
+boto3>=1.26.160
+
+# Vector search / LLM / embeddings
+pinecone-client>=2.2.0
+langchain>=0.1.0
+groq>=0.3.0
+
+# Utilities
+colorama>=0.4.6
+python-dotenv>=1.0.1
+
+# Logging / MongoDB
+pymongo>=4.4.0
+
+# Web / API (FastAPI part)
+fastapi>=0.107.0
+uvicorn>=0.23.2
+python-multipart>=0.0.6
+passlib[bcrypt]>=1.7.4
