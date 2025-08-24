@@ -1,0 +1,24 @@
+aws:
+  region: ap-south-1
+  s3:
+    bucket_name: flow_mate_buvcket
+    folders:
+      input: input/
+      processing: processing/
+      completed: completed/
+      failed: failed/
+  sqs:
+    queue_name: my-doc-queue
+    max_messages: 10
+    wait_time: 20
+
+processing:
+  max_retries: 3
+  batch_size: 5
+
+logging:
+  level: INFO
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  file: logs/tenderwin_worker.log
+  max_size_mb: 10
+  backup_count: 5
