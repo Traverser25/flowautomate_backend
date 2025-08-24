@@ -36,6 +36,11 @@ The project was implemented in **two main parts**, each addressing a separate co
 
 ---
 
+### Project Architecture
+
+![FlowAutomate Backend Architecture](assets/flow.png)
+
+
 ## Assumptions
 1. **PDF Volume:** The system is expected to handle **100–500 PDFs** initially.  
 2. **Diverse PDF Content:** PDFs may contain **varied structures** including paragraphs, tables, and images.  
