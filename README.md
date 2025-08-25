@@ -125,5 +125,5 @@ uvicorn app.main:app --reload --port 8000
 
 # 9. Features:
 # - Register/Login
-# - Upload documents (PDFs, tables, images)
+
 # - Search with RAG (retrieval augmented generation)
